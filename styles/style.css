@@ -9,11 +9,13 @@ body {
 }
 
 /* HEADER */
+
 header {
     display: flex;
     justify-content: space-between;
     margin: .5rem;
     padding: .5rem;
+    border-bottom: .25rem solid white;
 }
 
 .header-logo {
@@ -41,9 +43,55 @@ header nav ul li {
     align-self: center;
 }
 
-a {
+header a {
     color: #fff;
     font-weight: bold;
     font-style: italic;
     text-decoration: none;
+}
+
+/* MAIN SECTION */
+
+main {
+    width: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-primary {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    font-size: 7rem;
+}
+
+#main-secondary {
+    margin-top: 2rem;
+    margin-left: 15rem;
+    font-size: 2rem;
+}
+
+#main-btn-work {
+    margin-top: 2rem;
+    margin-left: 40rem;
+    width: 150px;
+    height: 80px;
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+.accent {
+    color: blue;
+}
+
+/* FOOTER */
+
+footer {
+    width: auto;
+    border: dashed red 2px;
 }
